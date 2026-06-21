@@ -1,0 +1,23 @@
+---
+description: Pinia state management for Vue
+globs: "**/stores/**/*.{ts,js}"
+alwaysApply: false
+---
+
+# Pinia Conventions
+
+- Use the Setup Store syntax (`defineStore` with a setup function) for new stores.
+- One store per domain: `useUserStore`, `useCartStore`.
+- Keep stores thin — business logic belongs in composables or services; stores hold state and orchestrate.
+- Use `storeToRefs` when destructuring reactive state in components to preserve reactivity.
+- Do not mutate state outside store actions.
+
+```typescript
+export const useUserStore = defineStore('user', () => {
+  const user = ref<User | null>(null);
+  async function fetchUser(id: string) {
+    user.value = await api.getUser(id);
+  }
+  return { user, fetchUser };
+});
+```

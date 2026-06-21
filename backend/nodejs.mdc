@@ -1,0 +1,22 @@
+---
+description: Node.js backend conventions
+globs: "**/*.{js,ts}"
+alwaysApply: false
+---
+
+# Node.js Conventions
+
+- Use ES modules (`import`/`export`) unless the project is CommonJS.
+- Validate environment variables at startup with a schema (e.g. Zod, envalid).
+- Structure: `routes/` → `controllers/` → `services/` → `repositories/`.
+- Use structured logging (pino, winston) — never `console.log` in production paths.
+- Handle async errors with try/catch at route boundaries or an async error wrapper middleware.
+- Graceful shutdown: listen for `SIGTERM`/`SIGINT`, close server and DB connections.
+
+```typescript
+const envSchema = z.object({
+  PORT: z.coerce.number().default(3000),
+  DATABASE_URL: z.string().url(),
+});
+export const env = envSchema.parse(process.env);
+```

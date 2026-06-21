@@ -1,0 +1,13 @@
+---
+description: Core principles applied to every session
+alwaysApply: true
+---
+
+# Core Principles
+
+- Minimize scope — solve the stated problem with the smallest correct diff.
+- Match existing conventions — read surrounding code before writing new code.
+- Prefer clarity over cleverness — simple, readable code beats abstractions for one use case.
+- Single responsibility — one concern per function, component, or module.
+- Fail explicitly — handle errors at boundaries; never swallow exceptions silently.
+- No speculative work — do not add features, refactors, or tests that were not requested.
