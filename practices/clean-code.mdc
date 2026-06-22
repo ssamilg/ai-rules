@@ -1,6 +1,13 @@
 ---
-description: "Clean code: naming, functions, simplicity"
-alwaysApply: true
+description: "Use if:
+- Writing or reviewing functions, variables, or file organization
+- Improving naming, reducing complexity, or removing dead code
+- Applying guard clauses, early returns, or simplicity rules
+- Deciding when to abstract or keep code inline
+- Enforcing readable, maintainable code standards"
+keywords: ["naming", "functions", "simplicity", "readability", "complexity", "deadcode", "organization", "clean"]
+globs: []
+alwaysApply: false
 ---
 
 # Clean Code Rules

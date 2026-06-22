@@ -1,6 +1,13 @@
 ---
-description: "Testing: test design, mocking strategy, coverage philosophy"
-alwaysApply: true
+description: "Use if:
+- Writing unit, integration, or end-to-end tests
+- Choosing mocking strategy or test structure
+- Covering edge cases, error paths, or flaky tests
+- Applying arrange-act-assert or test pyramid guidance
+- Reviewing test quality and coverage gaps"
+keywords: ["testing", "mocking", "coverage", "unit", "integration", "e2e", "assert", "flaky"]
+globs: []
+alwaysApply: false
 ---
 
 # Testing Rules

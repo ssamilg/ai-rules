@@ -1,7 +1,13 @@
 ---
-description: "Error handling: typed errors, boundaries, user messages"
-globs: ["*.ts", "*.py", "*.go", "*.rs"]
-alwaysApply: true
+description: "Use if:
+- Implementing try/catch, error types, or error boundaries
+- Designing API or UI error responses and user messages
+- Distinguishing operational errors from programmer bugs
+- Adding retry, timeout, or graceful degradation logic
+- Logging errors with structured context"
+keywords: ["errors", "exceptions", "handling", "retry", "boundaries", "timeout", "recovery", "typed"]
+globs: []
+alwaysApply: false
 ---
 
 # Error Handling Cursor Rules

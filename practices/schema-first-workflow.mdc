@@ -1,5 +1,12 @@
 ---
-description: "Schema-first development: define data models and docs before writing application code"
+description: "Use if:
+- Starting a new feature or product from requirements
+- Defining database schemas before application code
+- Writing PRDs, API contracts, or ORM models first
+- Validating migrations and seed data before building UI
+- Handling mid-build schema changes with a phased workflow"
+keywords: ["schema", "prd", "models", "contracts", "migrations", "workflow", "orm", "first"]
+globs: []
 alwaysApply: false
 ---
 

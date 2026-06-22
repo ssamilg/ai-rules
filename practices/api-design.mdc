@@ -1,7 +1,13 @@
 ---
-description: "API design: REST conventions, versioning, error responses"
-globs: ["*.ts", "*.js", "*.py", "*.go"]
-alwaysApply: true
+description: "Use if:
+- Designing or implementing REST API endpoints
+- Defining URL structure, HTTP methods, or response formats
+- Adding pagination, versioning, or error responses
+- Reviewing API contracts or auth and rate-limiting rules
+- Standardizing backend service interfaces"
+keywords: ["api", "rest", "endpoints", "http", "pagination", "versioning", "responses", "routes"]
+globs: []
+alwaysApply: false
 ---
 
 # API Design Cursor Rules

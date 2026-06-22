@@ -1,6 +1,13 @@
 ---
-description: "Accessibility: semantic HTML, ARIA, keyboard navigation, testing"
-alwaysApply: true
+description: "Use if:
+- Building or reviewing UI components and pages
+- Adding interactive elements, forms, modals, or navigation
+- Implementing ARIA, semantic HTML, or keyboard navigation
+- Checking contrast, alt text, or screen reader compatibility
+- Testing accessibility in PRs or before release"
+keywords: ["accessibility", "aria", "keyboard", "wcag", "semantic", "screenreader", "contrast", "a11y"]
+globs: []
+alwaysApply: false
 ---
 
 # Accessibility Rules

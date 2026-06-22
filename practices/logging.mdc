@@ -1,7 +1,13 @@
 ---
-description: "Logging: structured logs, levels, correlation"
-globs: ["*.ts", "*.py", "*.go"]
-alwaysApply: true
+description: "Use if:
+- Adding or reviewing application logging code
+- Choosing log levels or structured log fields
+- Propagating correlation or request IDs across services
+- Deciding what to log or redact in production
+- Configuring log aggregation or rotation policies"
+keywords: ["logging", "structured", "correlation", "levels", "tracing", "json", "pii", "observability"]
+globs: []
+alwaysApply: false
 ---
 
 # Logging Cursor Rules

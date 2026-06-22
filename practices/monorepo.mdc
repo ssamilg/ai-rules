@@ -1,6 +1,13 @@
 ---
-description: "Monorepo: workspace references, shared packages, boundaries"
-alwaysApply: true
+description: "Use if:
+- Structuring or maintaining a monorepo workspace
+- Managing shared packages and internal dependencies
+- Enforcing boundaries between apps and packages
+- Configuring Turborepo, Nx, or CI for affected builds
+- Coordinating versioning with changesets or similar tools"
+keywords: ["monorepo", "workspace", "packages", "turborepo", "boundaries", "dependencies", "nx", "shared"]
+globs: []
+alwaysApply: false
 ---
 
 # Monorepo Cursor Rules

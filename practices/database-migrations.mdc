@@ -1,7 +1,13 @@
 ---
-description: "Database migrations: safety, rollbacks, zero-downtime"
-globs: ["**/migrations/**", "**/migrate*"]
-alwaysApply: true
+description: "Use if:
+- Writing or reviewing database migration files
+- Planning reversible upgrades and downgrades
+- Applying zero-downtime or multi-phase schema changes
+- Creating indexes, backfills, or data migrations safely
+- Evaluating migration rollback and lock risk"
+keywords: ["migrations", "database", "schema", "rollback", "ddl", "backfill", "indexes", "sql"]
+globs: []
+alwaysApply: false
 ---
 
 # Database Migrations Cursor Rules

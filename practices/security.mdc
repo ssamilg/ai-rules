@@ -1,6 +1,13 @@
 ---
-description: "Security: input validation, auth, data protection"
-alwaysApply: true
+description: "Use if:
+- Validating user input or designing auth flows
+- Implementing authorization and object-level access checks
+- Handling secrets, sessions, tokens, or credentials
+- Reviewing dependencies for known vulnerabilities
+- Configuring HTTPS, CSP, CORS, or security headers"
+keywords: ["security", "auth", "validation", "authorization", "secrets", "jwt", "cors", "xss"]
+globs: []
+alwaysApply: false
 ---
 
 # Security Rules

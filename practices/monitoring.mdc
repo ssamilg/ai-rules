@@ -1,7 +1,13 @@
 ---
-description: "Monitoring: metrics, alerting, SLOs, observability"
-globs: ["*.yaml", "*.ts", "*.py"]
-alwaysApply: true
+description: "Use if:
+- Setting up metrics, dashboards, or alerting rules
+- Defining SLOs, SLIs, or error budgets
+- Implementing health checks or synthetic monitoring
+- Configuring observability for services or infrastructure
+- Tuning alerts to reduce noise and improve triage"
+keywords: ["monitoring", "metrics", "alerting", "slo", "dashboards", "observability", "health", "latency"]
+globs: []
+alwaysApply: false
 ---
 
 # Monitoring Cursor Rules

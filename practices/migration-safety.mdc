@@ -1,6 +1,13 @@
 ---
-description: "Migration Safety: database migrations, rollback plans, zero-downtime deploys"
-alwaysApply: true
+description: "Use if:
+- Planning backward-compatible or breaking schema changes
+- Running zero-downtime deploys with multi-step migrations
+- Writing up/down migration pairs with rollback plans
+- Renaming columns, dropping tables, or changing types safely
+- Testing migrations on production-size datasets"
+keywords: ["migrations", "rollback", "downtime", "schema", "deploy", "backfill", "compatible", "sql"]
+globs: []
+alwaysApply: false
 ---
 
 # Migration Safety Cursor Rules

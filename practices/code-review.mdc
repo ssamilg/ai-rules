@@ -1,6 +1,13 @@
 ---
-description: "Code review: reviewing approach, authoring PRs, feedback conventions"
-alwaysApply: true
+description: "Use if:
+- Reviewing a pull request as author or reviewer
+- Writing PR descriptions, feedback, or review comments
+- Checking correctness, security, or test coverage in diffs
+- Deciding blocking vs non-blocking feedback
+- Managing review speed and PR size expectations"
+keywords: ["review", "pullrequest", "feedback", "diff", "approval", "pr", "merge", "author"]
+globs: []
+alwaysApply: false
 ---
 
 # Code Review Rules

@@ -1,6 +1,13 @@
 ---
-description: "Refactoring: systematic approach, extract/inline, guard clauses, early returns"
-alwaysApply: true
+description: "Use if:
+- Refactoring code smells without changing behavior
+- Applying guard clauses, extract function, or inline steps
+- Simplifying conditionals or renaming for clarity
+- Preparing a refactor with tests and small commits
+- Avoiding large refactors mixed with feature work"
+keywords: ["refactoring", "extract", "inline", "guard", "smells", "rename", "tests", "steps"]
+globs: []
+alwaysApply: false
 ---
 
 # Refactoring Cursor Rules

@@ -1,6 +1,13 @@
 ---
-description: "Documentation: code docs, READMEs, ADRs, maintenance"
-alwaysApply: true
+description: "Use if:
+- Writing or updating READMEs, ADRs, or code documentation
+- Documenting public APIs, config options, or architecture decisions
+- Adding JSDoc, docstrings, or inline WHY comments
+- Maintaining changelogs or keeping docs in sync with code
+- Reviewing documentation quality in PRs"
+keywords: ["documentation", "readme", "adr", "jsdoc", "changelog", "comments", "architecture", "docs"]
+globs: []
+alwaysApply: false
 ---
 
 # Documentation Rules

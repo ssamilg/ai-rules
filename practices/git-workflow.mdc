@@ -1,6 +1,13 @@
 ---
-description: "Git workflow: commits, branches, PRs, history management"
-alwaysApply: true
+description: "Use if:
+- Creating commits, branches, or pull requests
+- Writing commit messages or managing branch history
+- Setting up branch protection or pre-commit hooks
+- Rebasing, squashing, or merging feature branches
+- Avoiding secrets or artifacts in version control"
+keywords: ["git", "commits", "branches", "pullrequest", "rebase", "merge", "history", "hooks"]
+globs: []
+alwaysApply: false
 ---
 
 # Git Workflow Rules

@@ -1,6 +1,13 @@
 ---
-description: "Performance: profiling-first optimization, caching, bottleneck patterns"
-alwaysApply: true
+description: "Use if:
+- Profiling or optimizing slow frontend or backend code
+- Fixing N+1 queries, missing indexes, or slow SQL
+- Reducing bundle size or improving page load metrics
+- Adding caching, batching, or streaming for scale
+- Setting and measuring performance budgets"
+keywords: ["performance", "profiling", "caching", "latency", "indexes", "bundle", "optimization", "scale"]
+globs: []
+alwaysApply: false
 ---
 
 # Performance Rules

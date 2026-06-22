@@ -1,6 +1,13 @@
 ---
-description: "AI-Assisted Development: prompt structure, context management, iterative refinement"
-alwaysApply: true
+description: "Use if:
+- Structuring prompts or context for AI-assisted coding
+- Reviewing or iterating on AI-generated output
+- Setting up project conventions for agent workflows
+- Managing context, file pinning, or incremental refinement
+- Writing or updating .mdc rules for AI tools"
+keywords: ["ai", "prompts", "context", "agents", "cursor", "generation", "refinement", "mdc"]
+globs: []
+alwaysApply: false
 ---
 
 # AI-Assisted Development Cursor Rules
