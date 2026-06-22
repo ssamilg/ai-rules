@@ -2,23 +2,21 @@
 
 ## Overview
 
-**Feature:** [Feature name]
+**Feature:** [Feature or Project name]
 **Author:** [Name]
-**Date:** [YYYY-MM-DD]
-**Status:** Draft | In Review | Approved
+**Date:** [DD-MM-YYYY]
 
 ### Problem
 
-[What problem does this solve? Who is affected?]
+[What specific problem does this solve? Who is affected?]
 
-### Goal
+### Goal (In Scope)
 
-[What does success look like? One or two sentences.]
+[What does success look like? One or two sentences defining the business outcome.]
 
-### Non-Goals
+### Non-Goals (Strictly Out of Scope)
 
-- [What is explicitly out of scope?]
-
+- [Explicit list of features, edge cases, or user types we are intentionally ignoring in this phase.]
 ---
 
 ## User Stories
@@ -44,27 +42,11 @@
 
 ---
 
-## Design
+## UX Flow & Design Reference
 
-[Link to mockups, wireframes, or describe the UX flow.]
+**Design Artifact:** [Link to Designer Gem SVG/HTML output, or specify "Standard UI Components"]
 
----
-
-## Technical Notes
-
-[API changes, data model changes, dependencies, migration plan.]
-
----
-
-## Open Questions
-
-- [ ] [Question 1]
-- [ ] [Question 2]
-
----
-
-## Timeline
-
-| Milestone | Target Date |
-|-----------|-------------|
-| [Milestone] | [Date] |
+**Step-by-Step Flow:**
+1. **Trigger:** [How the user initiates the action]
+2. **Action:** [What the user inputs or interacts with]
+3. **Response:** [What the UI displays in response]
