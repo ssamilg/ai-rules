@@ -1,6 +1,22 @@
 ---
 description: "CI/CD: pipelines, deployment, automation"
-alwaysApply: true
+globs:
+  - "**/.github/workflows/**/*.{yml,yaml}"
+  - "**/.gitlab-ci.yml"
+  - "**/Jenkinsfile"
+  - "**/.circleci/**/*.{yml,yaml}"
+  - "**/bitbucket-pipelines.yml"
+  - "**/azure-pipelines.yml"
+  - "**/Dockerfile"
+  - "**/docker-compose.{yml,yaml}"
+  - "**/.dockerignore"
+  - "**/turbo.json"
+  - "**/vercel.json"
+  - "**/netlify.toml"
+  - "**/render.yaml"
+  - "**/fly.toml"
+  - "**/railway.json"
+alwaysApply: false
 ---
 
 # CI/CD Rules

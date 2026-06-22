@@ -1,7 +1,17 @@
 ---
 description: "Vitest: unit testing, mocking, coverage, snapshot testing"
-globs: ["*.test.ts", "*.spec.ts", "vitest.config.ts"]
-alwaysApply: true
+globs:
+  - "**/*.{test,spec}.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/__tests__/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/tests/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/test/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/__mocks__/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/vitest.config.{js,ts,mjs,cjs}"
+  - "**/vite.config.{js,ts,mjs,cjs}"
+  - "**/vitest.setup.{js,ts,mjs,cjs}"
+  - "**/setup.{js,ts,mjs,cjs}"
+  - "**/vitest.workspace.{js,ts,mjs,cjs}"
+alwaysApply: false
 ---
 
 # Vitest Cursor Rules

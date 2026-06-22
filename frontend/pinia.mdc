@@ -1,6 +1,12 @@
 ---
 description: Pinia state management for Vue
-globs: "**/stores/**/*.{ts,js}"
+globs:
+  - "**/stores/**/*.{ts,js}"
+  - "**/store/**/*.{ts,js}"
+  - "**/pinia/**/*.{ts,js}"
+  - "**/modules/**/*.{ts,js}"
+  - "**/*Store.{ts,js}"
+  - "**/*store.{ts,js}"
 alwaysApply: false
 ---
 

@@ -1,7 +1,16 @@
 ---
 description: "Jest: describe/it, matchers, mocking, async testing"
-globs: ["*.test.*", "*.spec.*"]
-alwaysApply: true
+globs:
+  - "**/*.{test,spec}.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/__tests__/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/tests/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/test/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/__mocks__/**/*.{js,jsx,ts,tsx,mjs,cjs}"
+  - "**/jest.config.{js,ts,mjs,cjs,json}"
+  - "**/jest.setup.{js,ts,mjs,cjs}"
+  - "**/setupTests.{js,ts,jsx,tsx}"
+  - "**/setup-jest.{js,ts,mjs,cjs}"
+alwaysApply: false
 ---
 
 # Jest Cursor Rules

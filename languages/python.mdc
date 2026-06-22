@@ -1,7 +1,16 @@
 ---
 description: "Python best practices: type hints, pathlib, pytest, clean error handling"
-globs: ["*.py"]
-alwaysApply: true
+globs:
+  - "**/*.py"
+  - "**/src/**/*.py"
+  - "**/app/**/*.py"
+  - "**/tests/**/*.py"
+  - "**/test/**/*.py"
+  - "**/scripts/**/*.py"
+  - "**/api/**/*.py"
+  - "**/services/**/*.py"
+  - "**/models/**/*.py"
+alwaysApply: false
 ---
 
 # Python Rules

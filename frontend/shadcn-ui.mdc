@@ -1,6 +1,11 @@
 ---
 description: shadcn/ui component patterns, styling conventions, and form integration
-globs: **/components/ui/**,**/components/**
+globs:
+  - "**/components/ui/**/*.{tsx,ts,jsx}"
+  - "**/components/**/*.{tsx,ts,jsx}"
+  - "**/lib/utils.{ts,js}"
+  - "**/components.json"
+  - "**/ui/**/*.{tsx,ts,jsx}"
 alwaysApply: false
 ---
 

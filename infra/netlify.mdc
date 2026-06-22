@@ -1,6 +1,12 @@
 ---
 description: Netlify deployment and configuration
-globs: "**/netlify.toml"
+globs:
+  - "**/netlify.toml"
+  - "**/netlify/**/*.{ts,js,mjs,cjs}"
+  - "**/.netlify/**"
+  - "**/_redirects"
+  - "**/_headers"
+  - "**/netlify/functions/**/*.{ts,js,mjs,cjs}"
 alwaysApply: false
 ---
 

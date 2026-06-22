@@ -1,7 +1,16 @@
 ---
 description: "Modern JavaScript: ES2023+, async patterns, common traps"
-globs: ["*.js", "*.jsx", "*.mjs"]
-alwaysApply: true
+globs:
+  - "**/*.{js,jsx,mjs,cjs}"
+  - "**/src/**/*.{js,jsx,mjs,cjs}"
+  - "**/lib/**/*.{js,jsx,mjs,cjs}"
+  - "**/scripts/**/*.{js,mjs,cjs}"
+  - "**/composables/**/*.{js,mjs}"
+  - "**/utils/**/*.{js,mjs}"
+  - "**/hooks/**/*.{js,jsx}"
+  - "**/services/**/*.{js,mjs}"
+  - "**/middleware/**/*.{js,mjs}"
+alwaysApply: false
 ---
 
 # JavaScript Rules

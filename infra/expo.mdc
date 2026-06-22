@@ -1,7 +1,17 @@
 ---
 description: "Expo/React Native: native modules, navigation, platform-specific code"
-globs: ["*.tsx", "*.ts", "*.jsx"]
-alwaysApply: true
+globs:
+  - "**/app.{json,config.js,config.ts}"
+  - "**/eas.json"
+  - "**/metro.config.{js,ts}"
+  - "**/babel.config.{js,ts}"
+  - "**/app/**/*.{tsx,jsx,ts}"
+  - "**/screens/**/*.{tsx,jsx}"
+  - "**/components/**/*.{tsx,jsx}"
+  - "**/hooks/**/*.{ts,tsx}"
+  - "**/plugins/**/*.{ts,js}"
+  - "**/expo-env.d.ts"
+alwaysApply: false
 ---
 
 # Expo Cursor Rules

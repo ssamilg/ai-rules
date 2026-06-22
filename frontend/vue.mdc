@@ -1,7 +1,17 @@
 ---
 description: "Vue 3: Composition API, Pinia, script setup"
-globs: ["*.vue", "*.ts", "*.js"]
-alwaysApply: true
+globs:
+  - "**/*.vue"
+  - "**/components/**/*.{vue,ts,js}"
+  - "**/composables/**/*.{ts,js,vue}"
+  - "**/views/**/*.{vue,ts,js}"
+  - "**/pages/**/*.{vue,ts,js}"
+  - "**/layouts/**/*.{vue,ts,js}"
+  - "**/plugins/**/*.{ts,js}"
+  - "**/directives/**/*.{ts,js}"
+  - "**/router/**/*.{ts,js}"
+  - "**/src/**/*.vue"
+alwaysApply: false
 ---
 
 # Vue Cursor Rules

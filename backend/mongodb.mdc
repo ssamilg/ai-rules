@@ -1,7 +1,15 @@
 ---
 description: "MongoDB: schema design, indexing, aggregation"
-globs: ["*.ts", "*.js"]
-alwaysApply: true
+globs:
+  - "**/models/**/*.{ts,js,mjs,cjs}"
+  - "**/schemas/**/*.{ts,js,mjs,cjs}"
+  - "**/repositories/**/*.{ts,js,mjs,cjs}"
+  - "**/mongo/**/*.{ts,js,mjs,cjs}"
+  - "**/mongodb/**/*.{ts,js,mjs,cjs}"
+  - "**/aggregations/**/*.{ts,js,mjs,cjs}"
+  - "**/*.model.{ts,js,mjs,cjs}"
+  - "**/*.schema.{ts,js,mjs,cjs}"
+alwaysApply: false
 ---
 
 # MongoDB Cursor Rules

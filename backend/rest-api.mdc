@@ -1,6 +1,14 @@
 ---
 description: REST API design and implementation
-globs: "**/*.{ts,js}"
+globs:
+  - "**/routes/**/*.{js,ts,mjs,cjs}"
+  - "**/api/**/*.{js,ts,mjs,cjs}"
+  - "**/controllers/**/*.{js,ts,mjs,cjs}"
+  - "**/handlers/**/*.{js,ts,mjs,cjs}"
+  - "**/endpoints/**/*.{js,ts,mjs,cjs}"
+  - "**/openapi.{yaml,yml,json}"
+  - "**/swagger.{yaml,yml,json}"
+  - "**/api-docs/**/*.{yaml,yml,json,md}"
 alwaysApply: false
 ---
 

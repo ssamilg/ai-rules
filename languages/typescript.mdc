@@ -1,7 +1,18 @@
 ---
 description: "Strict TypeScript: generics, discriminated unions, no any"
-globs: ["*.ts", "*.tsx"]
-alwaysApply: true
+globs:
+  - "**/*.{ts,tsx,mts,cts}"
+  - "**/src/**/*.{ts,tsx,mts,cts}"
+  - "**/lib/**/*.{ts,tsx,mts,cts}"
+  - "**/types/**/*.{ts,tsx,mts}"
+  - "**/composables/**/*.{ts,tsx}"
+  - "**/hooks/**/*.{ts,tsx}"
+  - "**/stores/**/*.{ts,tsx}"
+  - "**/server/**/*.{ts,tsx,mts}"
+  - "**/api/**/*.{ts,tsx,mts}"
+  - "**/services/**/*.{ts,tsx,mts}"
+  - "**/utils/**/*.{ts,tsx,mts}"
+alwaysApply: false
 ---
 
 # TypeScript Rules

@@ -1,7 +1,14 @@
 ---
 description: "Supabase: RLS, edge functions, realtime"
-globs: ["*.sql", "*.ts"]
-alwaysApply: true
+globs:
+  - "**/supabase/**/*.{sql,ts,js,mjs,cjs}"
+  - "**/supabase/config.toml"
+  - "**/supabase/migrations/**/*.sql"
+  - "**/supabase/functions/**/*.{ts,js,mjs,cjs}"
+  - "**/supabase/seed.sql"
+  - "**/edge-functions/**/*.{ts,js,mjs,cjs}"
+  - "**/functions/**/*.{ts,js,mjs,cjs}"
+alwaysApply: false
 ---
 
 # Supabase Cursor Rules

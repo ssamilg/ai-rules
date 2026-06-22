@@ -1,7 +1,17 @@
 ---
 description: "React Native: mobile app development, navigation, native modules"
-globs: ["*.tsx", "*.ts", "*.jsx"]
-alwaysApply: true
+globs:
+  - "**/*.{tsx,jsx}"
+  - "**/app/**/*.{tsx,jsx,ts}"
+  - "**/screens/**/*.{tsx,jsx}"
+  - "**/components/**/*.{tsx,jsx}"
+  - "**/navigation/**/*.{tsx,jsx,ts}"
+  - "**/hooks/**/*.{ts,tsx}"
+  - "**/native/**/*.{tsx,ts}"
+  - "**/app.{json,config.js,config.ts}"
+  - "**/metro.config.{js,ts}"
+  - "**/babel.config.{js,ts}"
+alwaysApply: false
 ---
 
 # React Native Cursor Rules

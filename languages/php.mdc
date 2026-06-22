@@ -1,7 +1,15 @@
 ---
 description: "PHP 8.x+: typed properties, PSR standards"
-globs: ["*.php"]
-alwaysApply: true
+globs:
+  - "**/*.php"
+  - "**/app/**/*.php"
+  - "**/src/**/*.php"
+  - "**/routes/**/*.php"
+  - "**/config/**/*.php"
+  - "**/database/**/*.php"
+  - "**/tests/**/*.php"
+  - "**/resources/**/*.php"
+alwaysApply: false
 ---
 
 # PHP Cursor Rules

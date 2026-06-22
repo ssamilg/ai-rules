@@ -1,6 +1,18 @@
 ---
 description: Node.js backend conventions
-globs: "**/*.{js,ts}"
+globs:
+  - "**/server/**/*.{js,ts,mjs,cjs}"
+  - "**/api/**/*.{js,ts,mjs,cjs}"
+  - "**/backend/**/*.{js,ts,mjs,cjs}"
+  - "**/src/server/**/*.{js,ts,mjs,cjs}"
+  - "**/src/api/**/*.{js,ts,mjs,cjs}"
+  - "**/services/**/*.{js,ts,mjs,cjs}"
+  - "**/controllers/**/*.{js,ts,mjs,cjs}"
+  - "**/routes/**/*.{js,ts,mjs,cjs}"
+  - "**/middleware/**/*.{js,ts,mjs,cjs}"
+  - "**/workers/**/*.{js,ts,mjs,cjs}"
+  - "**/jobs/**/*.{js,ts,mjs,cjs}"
+  - "**/lib/**/*.{js,ts,mjs,cjs}"
 alwaysApply: false
 ---
 

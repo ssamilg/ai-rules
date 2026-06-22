@@ -1,7 +1,18 @@
 ---
 description: "Next.js: App Router, Server Components, server actions"
-globs: ["*.js", "*.jsx", "*.ts", "*.tsx"]
-alwaysApply: true
+globs:
+  - "**/app/**/*.{js,jsx,ts,tsx}"
+  - "**/pages/**/*.{js,jsx,ts,tsx}"
+  - "**/components/**/*.{js,jsx,ts,tsx}"
+  - "**/middleware.{ts,js}"
+  - "**/next.config.{js,mjs,ts}"
+  - "**/layout.{js,jsx,ts,tsx}"
+  - "**/page.{js,jsx,ts,tsx}"
+  - "**/route.{js,ts}"
+  - "**/loading.{js,jsx,ts,tsx}"
+  - "**/error.{js,jsx,ts,tsx}"
+  - "**/not-found.{js,jsx,ts,tsx}"
+alwaysApply: false
 ---
 
 # Next.js Cursor Rules

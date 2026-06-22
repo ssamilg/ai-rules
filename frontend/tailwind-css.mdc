@@ -1,7 +1,16 @@
 ---
 description: "Tailwind CSS: utility patterns, design tokens, component extraction"
-globs: ["*.css", "*.tsx", "*.vue", "*.html"]
-alwaysApply: true
+globs:
+  - "**/*.{tsx,jsx,vue,svelte,html,astro}"
+  - "**/*.css"
+  - "**/tailwind.config.{js,ts,mjs,cjs}"
+  - "**/postcss.config.{js,cjs,mjs}"
+  - "**/globals.css"
+  - "**/app.css"
+  - "**/index.css"
+  - "**/styles/**/*.{css,scss}"
+  - "**/@/**/*.{css,scss}"
+alwaysApply: false
 ---
 
 # Tailwind CSS Cursor Rules

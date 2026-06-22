@@ -1,7 +1,13 @@
 ---
 description: "Zustand: store patterns, selectors, middleware, persist"
-globs: ["*.ts", "*.tsx"]
-alwaysApply: true
+globs:
+  - "**/stores/**/*.{ts,tsx}"
+  - "**/store/**/*.{ts,tsx}"
+  - "**/state/**/*.{ts,tsx}"
+  - "**/slices/**/*.{ts,tsx}"
+  - "**/*Store.{ts,tsx}"
+  - "**/*store.{ts,tsx}"
+alwaysApply: false
 ---
 
 # Zustand Cursor Rules

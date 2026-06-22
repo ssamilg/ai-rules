@@ -1,7 +1,17 @@
 ---
 description: "React: hooks, composition, performance patterns"
-globs: ["*.jsx", "*.tsx"]
-alwaysApply: true
+globs:
+  - "**/*.{jsx,tsx}"
+  - "**/components/**/*.{jsx,tsx}"
+  - "**/hooks/**/*.{ts,tsx,js,jsx}"
+  - "**/context/**/*.{jsx,tsx}"
+  - "**/providers/**/*.{jsx,tsx}"
+  - "**/features/**/*.{jsx,tsx}"
+  - "**/app/**/*.{jsx,tsx}"
+  - "**/pages/**/*.{jsx,tsx}"
+  - "**/layouts/**/*.{jsx,tsx}"
+  - "**/src/**/*.{jsx,tsx}"
+alwaysApply: false
 ---
 
 # React Cursor Rules

@@ -1,7 +1,17 @@
 ---
 description: "Nuxt 3: composables, server routes, auto-imports"
-globs: ["*.vue", "*.ts"]
-alwaysApply: true
+globs:
+  - "**/*.vue"
+  - "**/pages/**/*.{vue,ts,js}"
+  - "**/layouts/**/*.{vue,ts,js}"
+  - "**/composables/**/*.{ts,js,vue}"
+  - "**/server/**/*.{ts,js}"
+  - "**/middleware/**/*.{ts,js}"
+  - "**/plugins/**/*.{ts,js}"
+  - "**/nuxt.config.{ts,js,mjs}"
+  - "**/app.vue"
+  - "**/error.vue"
+alwaysApply: false
 ---
 
 # Nuxt 3 Cursor Rules

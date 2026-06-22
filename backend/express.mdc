@@ -1,7 +1,17 @@
 ---
 description: "Express: middleware, error handling, validation"
-globs: ["*.js", "*.ts"]
-alwaysApply: true
+globs:
+  - "**/routes/**/*.{js,ts,mjs,cjs}"
+  - "**/middleware/**/*.{js,ts,mjs,cjs}"
+  - "**/controllers/**/*.{js,ts,mjs,cjs}"
+  - "**/app.{js,ts,mjs,cjs}"
+  - "**/server.{js,ts,mjs,cjs}"
+  - "**/index.{js,ts,mjs,cjs}"
+  - "**/src/app.{js,ts,mjs,cjs}"
+  - "**/src/server.{js,ts,mjs,cjs}"
+  - "**/src/index.{js,ts,mjs,cjs}"
+  - "**/express/**/*.{js,ts,mjs,cjs}"
+alwaysApply: false
 ---
 
 # Express.js Cursor Rules
