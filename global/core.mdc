@@ -9,6 +9,7 @@ alwaysApply: true
 - Output exact, complete code. Ban placeholders, `// TODO`, or `// implementation goes here` comments.
 - Do not take secondary actions (e.g., creating tables, drafting emails, generating extra files) without an explicit command.
 - Give the answer and stop.
+- Always append a single line at the very end of your response listing the specific rule files you are actively following for this task, formatted strictly as: "Rules applied: [file1.mdc], [file2.mdc]".
 
 # 2. The Zen of Engineering
 - **Readability over Cleverness:** Code is read a hundred times for every one time it is written. Write obvious, boring code.
