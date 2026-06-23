@@ -46,8 +46,18 @@ Output the raw markdown code blocks for these three files without additional con
 
 ## Documents
 
+### Inputs
 - Frontend Architecture Rules: `[path/to/pm-fe-rules.md]`
 - Backend Architecture Rules: `[path/to/pm-be-rules.md]`
 - System Design Document Template: `[path/to/sdd.md]`
 - Architecture Decision Record Template: `[path/to/adr.md]`
 - Tasks Template: `[path/to/tasks.md]`
+- Project Anchor: `[path/to/project.md]`
+- Product Requirements Document: `[path/to/prd.md]`
+- Mockup / Wireframe: `[path/to/wireframe.html]`
+- Tech Stack: `[path/to/tech-stack.md]`
+
+### Outputs
+- ADR.md: `[path/to/adr.md]`
+- SDD.md: `[path/to/sdd.md]`
+- tasks.md: `[path/to/tasks.md]`

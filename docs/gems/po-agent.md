@@ -28,8 +28,16 @@ You operate in two strict phases.
 - Stop asking questions.
 - Read the provided prd.md file.
 - Output the finalized PRD strictly matching the template's exact structure.
+- If this is a new project output the finalized project.md strictly matching the template's exact structure.
 - Output ONLY markdown. Zero conversational filler.
 
 ## Documents
 
+### Inputs
+- Idea: The raw idea from the Boss
+- Project Anchor Template: `[path/to/project.md]`
 - Product Requirements Document Template: `[path/to/prd.md]`
+
+### Outputs
+- Project Anchor: `[path/to/project.md]`
+- Product Requirements Document: `[path/to/prd.md]`
